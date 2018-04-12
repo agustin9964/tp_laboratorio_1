@@ -42,7 +42,7 @@ float multiplicacion(float a, float b)
 int factorial(float a)
 {
     int AuxiliarA=(int)a;
-    int resultado=1;
+    float resultado=1;
     if(a<0)
     printf("No se puede hacer factorial de un negativo\n");
      else if(a!=AuxiliarA)
@@ -53,7 +53,7 @@ int factorial(float a)
         {
             resultado *= i;
         }
-        printf("El factorial de A es: %d \n ", resultado);
+        printf("El factorial de A es: %0.f \n ", resultado);
     }
 }
 
